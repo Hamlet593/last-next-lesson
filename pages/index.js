@@ -1,13 +1,13 @@
-import Footer from "../components/Footer";
-import Header from "../components/Header";
-
+import Link from 'next/link';
+import styles from '../styles/Navbar.module.scss';
 
 export default function Home() {
   return (
-    <div>
-      <Header />
+    <>
       <h1>About </h1>
-      <Footer />
-    </div>
+      <Link href='/burgers'>
+            <a className={`${styles.a}`}>All burgers</a>
+      </Link>
+    </>
   )
 }
