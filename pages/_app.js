@@ -1,10 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../styles/globals.scss';
 import { useEffect } from 'react';
+import '../styles/Header.module.scss';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
-    import("bootstrap/dist/js/bootstrap");
+    import("bootstrap/dist/js/bootstrap.js");
 }, []);
   return <Component {...pageProps} />
 }
