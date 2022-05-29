@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
-import '../styles/Header.module.scss';
+import '../styles/Navbar.module.scss';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
@@ -9,4 +9,4 @@ function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default MyApp;
