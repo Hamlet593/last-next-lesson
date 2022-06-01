@@ -11,7 +11,7 @@ export default function Home() {
       <Head>
         <title>Main burgers</title>
       </Head>
-      <div className='container-lg text-center'>
+      <div className={`container-lg text-center`}>
         <h1 className={`${styles.title} font-effect-fire-animation my-5`}>Eat me I'm a tasty</h1>
         <p className='fs-4'>What is the perfect burger ? Fresh lettuce, soft buns, juicy meat. You can argue about other components of the filling, because this is a matter of taste.</p>
         <p className='fs-5'>There are a couple of other factors that affect appetite: prices, quality of service, the right atmosphere of the establishment.</p>

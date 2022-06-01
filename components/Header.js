@@ -24,7 +24,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href='/review'>
+                            <Link href='/reviews'>
                                 <a className="nav-link" aria-current="page">Review</a>
                             </Link>
                         </li>
