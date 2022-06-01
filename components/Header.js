@@ -1,13 +1,12 @@
 import Link from 'next/link';
 import {SiBurgerking} from 'react-icons/si';
 import {GiHamburgerMenu} from 'react-icons/gi';
-// import styles from '../styles/Navbar.module.scss';
+import styles from '../styles/Navbar.module.scss';
 
 const Header = () => {
   return (
       <header>
-        {/* <nav className={`${styles.test1} navbar navbar-expand-lg navbar-dark bg-dark`}> */}
-        <nav className='navbar navbar-expand-lg navbar-dark bg-dark test1'>
+        <nav className={`${styles.test1} navbar navbar-expand-lg navbar-dark bg-dark`}>
             <div className="container-fluid">
                 <Link href='/'><a className="navbar-brand"><SiBurgerking/></a></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

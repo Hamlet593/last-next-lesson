@@ -1,6 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { useEffect } from 'react';
-import '../styles/Navbar.module.scss';
 
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
