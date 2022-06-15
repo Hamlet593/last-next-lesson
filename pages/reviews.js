@@ -10,37 +10,6 @@ export async function getServerSideProps() {
     }
 }
 
-export async function getToken() {
-    const response = await fetch('https://devapi.kinodaran.com:9090/auth', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify({
-            'email': 'hamlet@advancedtech.am',
-            'password': 'Grqamolutyun93$'
-        })
-    });
-    const data = await response.json();
-    return data;
-}
-
-let myToken = getToken();
-console.log(myToken);
-
-// export async function getPosts() {
-//     const response = await fetch('https://devapi.kinodaran.com:9090/auth', {
-//         method: 'GET',
-//         body: JSON.stringify({
-//             'email': 'hamlet@advancedtech.am',
-//             'password': 'Grqamolutyun93$'
-//         })
-//     });
-//     const data = await response.json();
-//     console.log(data);
-// }
-
-
 const Reviews = ({reviews}) => {
     return (
         <>
